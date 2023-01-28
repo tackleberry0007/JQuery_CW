@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+</head>
+<body>
+    <p id="para"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis saepe sed id doloribus laboriosam delectus 
+        accusantium eaque fuga voluptas, fugiat laborum velit qui ea quae animi repudiandae quibusdam corrupti dolorum!
+   </p>
+
+   <button id="BH">Hide</button>
+   <button id="BS">Show</button>
+   <button id="Toggle">Toggle</button>
+<script>
+        // $("#BH").click(function() {
+        //     $("#para") .hide();
+
+
+        // })
+        // $("#BS").click(function() {
+        //     $("#para") .show();
+
+
+        // })
+        
+        // })
+        // $("#Toggle").click(function() {
+        //     $("#para") .toggle(1000);
+
+
+        // })
+        $(Document).ready(function() {
+             
+            $("#BH").click(function() {
+              $("#para").hide();
+
+            })
+
+            $("#BS").click(function(){
+              $("#para").show();
+
+            })
+            $("#Toggle").click(function(){
+              $("#para").toggle(2500);  
+
+            })
+
+
+
+
+
+
+
+
+
+
+
+
+
+        })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+    
+</body>
+</html>
